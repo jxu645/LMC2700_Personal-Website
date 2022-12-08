@@ -1,0 +1,77 @@
+body{
+    background-image:url("techTower2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    margin:auto;
+    padding:50px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+    font-size: 20px;    
+    padding:10px;
+}
+
+a:link{
+    color:aliceblue
+}
+
+a:visited{
+    color:aliceblue
+}
+
+a:hover{
+    color:silver
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:100px;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.workImages {
+    max-width: 30%;
+    max-height: 100vh;
+    border-radius: 10px;
+}
+
+.workText1 {
+    width: 600px;
+    font-size: 25px;
+    align-self: center;
+    padding-left: 100px;
+    color:white;
+    line-height: 2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.workText2 {
+    width: 600px;
+    font-size: 25px;
+    align-self: center;
+    padding-right: 100px;
+    color:white;
+    line-height: 2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 60px;
+    align-self: center;
+    color:white;
+    line-height: 2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
